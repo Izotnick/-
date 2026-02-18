@@ -1,0 +1,213 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: burlywood;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        nav li {
+            float: left;
+        }
+        
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            margin-left: 100px;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .b{
+            margin-left: 850px;
+        }
+        .a{
+margin-left: 75px;
+        }
+        .q{
+            width: 100%; height: 650px;
+            background-color: rgb(126, 143, 94);
+        }
+        img{
+            padding: 5px 5px;
+        }
+        .m{
+             float: left;
+             display: flex;
+        }
+.i{
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+.k{
+    border-radius: 30px;
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 1320px;
+    background-color: rgb(48, 100, 55);
+    display: flex;
+
+}
+.h{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.p{
+    margin-left: 100px;
+}
+        .z{
+margin-left: 1000px;
+border-radius: 30px;
+height: 200px;
+height: 200px;
+        }
+        .zz{
+            height: 200px;
+            border-radius: 30px;
+            padding-left: 40px;
+height: 200px;
+        }
+        .fff{
+            float: left;
+        }
+        .ffff{
+            background-color:#2f3e46;
+             color:#ffffff;
+              padding:40px 20px; 
+              font-family:Arial, sans-serif;
+        }
+        .dd{
+            max-width:1200px;
+             margin:0 auto;
+              display:flex;
+               flex-wrap:wrap;
+                justify-content:space-between;
+        }
+        .ddd{
+            flex:1 1 250px; 
+            margin-bottom:20px;
+            margin-left: 40px;
+        }
+        .vvv{
+            flex:1 1 250px;
+             margin-bottom:20px;
+        }
+        .uii{
+            list-style:none;
+             padding:0;
+             line-height: 25px;
+        }
+        .bbb{
+            text-align:center; 
+            margin-top:30px;
+             border-top:1px solid rgba(255,255,255,0.2); 
+             padding-top:15px;
+        }
+          @media (max-width: 992px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header {
+                font-size: 18px;
+            }
+
+            .content, .sidebar {
+                padding: 15px;
+            }
+        }
+        body {
+    margin: 0;
+    padding: 0 10px; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: 14px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        padding: 0 8px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    nav {
+        font-size: 16px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
+@media screen and (min-width: 993px) {
+    nav {
+        font-size: 18px;
+    }
+    .container {
+        padding: 0 20px;
+    }
+}
